@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a0a"/>
+      <stop offset="0.55" stop-color="#131210"/>
+      <stop offset="1" stop-color="#1b1813"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.42" r="0.55">
+      <stop offset="0" stop-color="#c9a06c" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#c9a06c" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ecd9ae"/>
+      <stop offset="0.5" stop-color="#d3b27c"/>
+      <stop offset="1" stop-color="#b08b52"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect width="1600" height="900" fill="url(#glow)"/>
+  <rect x="48" y="48" width="1504" height="804" fill="none" stroke="#d3b27c" stroke-opacity="0.16"/>
+  <g transform="translate(0 -5)" stroke="url(#gold)" stroke-width="12" fill="none" stroke-linecap="round">
+    <path d="M 666 338 C 760 248 860 258 919 348 C 969 428 890 548 830 578" opacity="0.95"/>
+    <path d="M 729 368 C 790 288 880 298 916 383 C 985 458 910 568 855 603" opacity="0.55"/>
+    <path d="M 626 388 C 730 318 820 328 899 418 C 950 488 880 588 815 623" opacity="0.3"/>
+  </g>
+  <text x="800" y="816" text-anchor="middle" font-family="'Palatino Linotype', Georgia, serif" font-size="26" letter-spacing="8" fill="#e9d8b0" opacity="0.9">LUXHAIR</text>
+  <text x="800" y="854" text-anchor="middle" font-family="'Palatino Linotype', Georgia, serif" font-size="13" letter-spacing="5" fill="#b3a284" opacity="0.75">NAPOLI</text>
+</svg>
